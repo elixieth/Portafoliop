@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Animaciones - Galería</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="stars"></div>
+  <div class="particles"></div>
+
+  <audio id="bgMusic" loop>
+    <source src="../music/dream.mp3" type="audio/mp3">
+  </audio>
+  <audio id="hoverSound">
+    <source src="../sounds/hover.mp3">
+  </audio>
+
+  <section class="project-page">
+
+    <div class="hero-nav">
+      <a href="../index.html" class="btn-back">
+        <span>&#10094;</span> VOLVER
+      </a>
+      <div class="music-player">
+        <button id="musicBtn">♫</button>
+      </div>
+    </div>
+
+    <div class="gallery-hero">
+      <h1 class="main-title">Animaciones</h1>
+      <p class="section-text">
+        Proyectos de animación y captura de movimiento (motion capture) desarrollados en Blender y herramientas especializadas.
+      </p>
+    </div>
+
+    <div class="animation-gallery">
+      
+      <div class="animation-card">
+        <div class="card-glow"></div>
+        <h3>✦ Animación 1 ✦</h3>
+        <div class="video-container">
+          <video controls loop playsinline class="anim-video">
+            <source src="../img/PIA.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+          </video>
+        </div>
+        <p class="anim-desc">Descripción corta de tu primer proyecto o técnica utilizada.</p>
+      </div>
+
+      <div class="animation-card">
+        <div class="card-glow"></div>
+        <h3>✦ Animación 2 ✦</h3>
+        <div class="video-container">
+          <video controls loop playsinline class="anim-video">
+            <source src="../img/reel10000-0235.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+          </video>
+        </div>
+        <p class="anim-desc">Descripción corta de tu segundo proyecto o técnica utilizada.</p>
+      </div>
+
+      <div class="animation-card">
+        <div class="card-glow"></div>
+        <h3>✦ Animación 3 ✦</h3>
+        <div class="video-container">
+          <video controls loop playsinline class="anim-video">
+            <source src="../img/VideoEmo.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+          </video>
+        </div>
+        <p class="anim-desc">Descripción corta de tu tercer proyecto o técnica utilizada.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="../script.js"></script>
+</body>
+</html>

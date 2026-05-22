@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trabajos 2D - Galería</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="stars"></div>
+  <div class="particles"></div>
+
+  
+  <audio id="bgMusic" loop>
+    <source src="../music/dream.mp3" type="audio/mp3">
+  </audio>
+  <audio id="hoverSound">
+    <source src="../sounds/hover.mp3">
+  </audio>
+
+  <section class="project-page">
+    <div class="hero-nav">
+      <a href="../index.html" class="btn-back">
+        <span>&#10094;</span> VOLVER
+      </a>
+      <div class="music-player">
+        <button id="musicBtn">♫</button>
+      </div>
+    </div>
+
+
+    <div class="gallery-hero">
+      <h1 class="main-title">Trabajos 2D</h1>
+      <p class="section-text">
+        Una colección de mis diseños, ilustraciones y sprites principales en estilo pixelart y arte conceptual.
+      </p>
+    </div>
+
+    <div class="large-carousel-wrapper">
+      <div class="carousel-container">
+        <div class="carousel-track" id="track-1">
+          <img src="../img/PixelArt1.jpeg" alt="Ilustración 1">
+          <img src="../img/PixelArt2.jpeg" alt="Ilustración 2">
+          <img src="../img/PixelArt3.jpeg" alt="Ilustración 3">
+          <img src="../img/PixelArt4.jpeg" alt="Ilustración 3">
+          <img src="../img/PixelArt5.jpeg" alt="Ilustración 3">
+          <img src="../img/PixelArt6.jpeg" alt="Ilustración 3">
+          <img src="../img/GuerreroCanizalezFernanda_Artistica.jpg" alt="Ilustración 3">
+          <img src="../img/1.jpeg" alt="Ilustración 3">
+          <img src="../img/2.jpeg" alt="Ilustración 3">
+          <img src="../img/3.jpeg" alt="Ilustración 3">
+          <img src="../img/4.jpeg" alt="Ilustración 3">
+          <img src="../img/5.jpeg" alt="Ilustración 3">
+
+         
+
+        </div>
+        <button class="carousel-btn prev" onclick="moveSlide('track-1', -1)">&#10094;</button>
+        <button class="carousel-btn next" onclick="moveSlide('track-1', 1)">&#10095;</button>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="../script.js"></script>
+</body>
+</html>

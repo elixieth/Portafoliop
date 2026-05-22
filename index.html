@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liz Portfolio</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  
+</head>
+<body>
+  <!-- LOADER -->
+
+<div id="loader">
+
+  <div class="loader-box">
+
+    <h1>
+      ELI.EXE
+    </h1>
+
+    <p>
+      loading digital universe...
+    </p>
+
+    <div class="loader-bar">
+
+      <div class="loader-fill"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="cursor"></div>
+
+<!-- MUSIC PLAYER -->
+
+<div class="music-player">
+
+  <button id="musicBtn">
+    ♫
+  </button>
+
+</div>
+
+<audio id="bgMusic" loop>
+
+  <source src="music/dream.mp3" type="audio/mp3">
+
+</audio>
+<audio id="hoverSound">
+
+  <source src="sounds/hover.mp3">
+
+</audio>
+<div class="particles"></div>
+
+  <!-- estrellas -->
+
+  <div class="stars"></div>
+
+  <!-- navbar -->
+
+ <nav>
+
+  <div class="logo">
+    ✦ ELI.EXE
+  </div>
+
+  <ul>
+
+    <li>
+      <a href="index.html">
+        HOME
+      </a>
+    </li>
+
+    <li>
+      <a href="projects.html">
+        PROJECTS
+      </a>
+    </li>
+
+    <li>
+      <a href="contact.html">
+        CONTACT
+      </a>
+    </li>
+
+  </ul>
+
+</nav>
+  <!-- hero -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <div class="subtitle">
+        3D ARTIST • GAME DEV • CREATIVE DESIGNER
+      </div>
+
+      <h1>
+        Bienvenidos a mi universo digital
+      </h1>
+
+      <p>
+        Hola, soy Eli, artista 3D enfocada en el diseño y creacion de personajes
+        me enfoco principalmente en desarrollar y crear mundos de fantasia 
+        para cada una de mis creaciones 
+      </p>
+
+      <div class="buttons">
+
+        <a href="#projects" class="btn btn-primary">
+          Ver Projectos
+        </a>
+
+        <a href="#about" class="btn btn-secondary">
+          Sobre mi
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- about -->
+<section class="about-section" id="about">
+
+  <!-- LEFT CARD -->
+
+  <div class="player-card">
+
+    <div class="card-glow"></div>
+
+    <!-- top -->
+
+    <div class="player-top">
+
+      <span class="player-id">
+        ✦ PLAYER 01
+      </span>
+
+      <div class="hearts">
+        ♡ ♡ ♡ ♡ ♡
+      </div>
+
+    </div>
+
+    <!-- imagen -->
+
+    <div class="player-image-container">
+
+      <img
+      src="yo.jpeg"
+      class="player-image">
+
+    </div>
+
+    <!-- info -->
+
+    <div class="player-info">
+
+      <h1>ELI.EXE</h1>
+
+      <p>Artista 3D creativa</p>
+
+    </div>
+
+    <!-- level -->
+
+    <div class="level-container">
+
+      <div class="level-box">
+        LVL 20
+      </div>
+
+      <div class="xp-container">
+
+        <div class="xp-bar">
+          <div class="xp-fill"></div>
+        </div>
+
+        <span>
+          EXP 7,250 / 10,000
+        </span>
+
+      </div>
+
+    </div>
+
+    <!-- mascota -->
+
+    <div class="mini-cat">
+      ✦
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+
+  <div class="about-content">
+
+    <span class="profile-title">
+      ✦ PLAYER PROFILE ✦
+    </span>
+
+    <h2 class="main-title">
+      Artista 3D que ama diseñar
+    </h2>
+
+    <div class="description-box">
+
+      <p>
+        Me gusta crear personajes y darles una vida e historia, mi estilo
+        esta principalmente influenciado por la estetica asiatica y gamer, 
+        mi fuerte es el modelado de personajes y el diseño de estos.
+      </p>
+
+    </div>
+
+    <!-- STATS -->
+
+    <div class="stats-container">
+
+      <!-- stat -->
+
+      <div class="stat-row">
+
+        <div class="stat-label">
+          ✧ 3D Modeling
+        </div>
+
+        <div class="stat-bar">
+          <div class="fill pink"></div>
+        </div>
+
+        <span>84%</span>
+
+      </div>
+
+      <!-- stat -->
+
+      <div class="stat-row">
+
+        <div class="stat-label">
+          ✦ Canva 
+        </div>
+
+        <div class="stat-bar">
+          <div class="fill purple"></div>
+        </div>
+
+        <span>90%</span>
+
+      </div>
+
+      <!-- stat -->
+
+      <div class="stat-row">
+
+        <div class="stat-label">
+          ✧ UI / UX Design
+        </div>
+
+        <div class="stat-bar">
+          <div class="fill blue"></div>
+        </div>
+
+        <span>95%</span>
+
+      </div>
+
+      <!-- stat -->
+
+      <div class="stat-row">
+
+        <div class="stat-label">
+          ✧ Creativity
+        </div>
+
+        <div class="stat-bar">
+          <div class="fill yellow"></div>
+        </div>
+
+        <span>999+</span>
+
+      </div>
+
+    </div>
+
+    <!-- hABILIDADES -->
+
+    <h3 class="abilities-title">
+      ✦ HABILIDADES ✦
+    </h3>
+
+    <div class="abilities-grid">
+
+      <div class="ability-card">
+        <span>✮⋆˙</span>
+        Blender
+      </div>
+
+      <div class="ability-card">
+        <span>✮</span>
+        MMD
+      </div>
+
+      <div class="ability-card">
+        <span>•ﻌ•</span>
+        UI Design
+      </div>
+
+      <div class="ability-card">
+        <span>˚˖𓍢ִ໋❀</span>
+        2D
+      </div>
+
+      <div class="ability-card">
+        <span>✎෴</span>
+        Storytelling
+      </div>
+
+      <div class="ability-card">
+        <span>🗺</span>
+        Worldbuilding
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  <!-- proyectos -->
+
+ <section id="projects">
+
+    <h2 class="section-title">
+      Projects
+    </h2>
+
+    <p class="section-text">
+      Algunos de mis proyectos favoritos
+    </p>
+
+    <div class="projects-grid">
+
+      <a href="projects/sushi-game.html" class="project-card">
+        <img src="img/RENDER_1.png" class="project-image">
+        <div class="project-content">
+          <h3>Projectos 3D</h3>
+          <p>
+            Pequeña galeria de mis trabajos en la rama de 3D, desde usando blender, zbrush y programas como MMD
+          </p>
+        </div>
+      </a>
+
+      <a href="projects/animacion.html" class="project-card">
+        <img src="img/clothes.png" class="project-image">
+        <div class="project-content">
+          <h3>Animaciones</h3>
+          <p>
+            Algunas de mis animaciones realizadas por mi en programas como blender o usando el motion capture
+          </p>
+        </div>
+      </a>
+
+      <a href="projects/2d.html" class="project-card">
+        <img src="img/2d.jpeg" class="project-image">
+        <div class="project-content">
+          <h3>Trabajos 2D</h3>
+          <p>
+            Son algunos de mis diseños y sprites principalmente en estilo pixelart
+          </p>
+        </div>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- contacto -->
+
+  <section id="contact">
+
+    <h2 class="section-title">
+      Contact
+    </h2>
+
+    <p class="section-text">
+      Let's create something magical together ✦
+    </p>
+
+  </section>
+
+  <!-- footer -->
+
+  <footer>
+    © 2026 Eli Portfolio — Hecho con un sueño y fe ✦
+  </footer>
+  
+<script src="script.js"></script>
+</body>
+</html>

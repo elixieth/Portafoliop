@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyectos 3D - Modelos</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="stars"></div>
+  <div class="particles"></div>
+
+
+  <audio id="bgMusic" loop>
+    <source src="../music/dream.mp3" type="audio/mp3">
+  </audio>
+  <audio id="hoverSound">
+    <source src="../sounds/hover.mp3">
+  </audio>
+
+  <section class="project-page">
+
+    <div class="video-hero">
+      <video autoplay loop muted playsinline class="project-video">
+        <source src="../img/EMOGIRL0001-0090.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+      </video>
+      
+      <div class="hero-nav">
+        <a href="../index.html" class="btn-back">
+          <span>&#10094;</span> VOLVER
+        </a>
+        <div class="music-player">
+          <button id="musicBtn">♫</button>
+        </div>
+      </div>
+
+      <div class="hero-text-side">
+        <h1 class="main-title">Proyectos 3D</h1>
+        <p class="section-text">
+          Exploración de personajes 3D. Animaciones y renders desde distintos ángulos.
+        </p>
+      </div>
+    </div>
+
+    <div class="character-gallery">
+      </div>
+
+    <div class="character-gallery">
+      
+      <div class="character-card">
+        <div class="card-glow"></div>
+        <h3>✦ Personaje 1 ✦</h3>
+        <div class="carousel-container">
+          <div class="carousel-track" id="track-1">
+            <img src="../img/R3.jpeg" alt="Frontal">
+            <img src="../img/R4.jpeg" alt="Lateral">
+            <img src="../img/R5.jpeg" alt="Trasero">
+            <img src="../img/R6.jpeg" alt="Isométrico">
+          </div>
+          <button class="carousel-btn prev" onclick="moveSlide('track-1', -1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="moveSlide('track-1', 1)">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="character-card">
+        <div class="card-glow"></div>
+        <h3>✦ Personaje 2 ✦</h3>
+        <div class="carousel-container">
+          <div class="carousel-track" id="track-2">
+             <img src="../img/kawaii.png" alt="Frontal">
+            <img src="../img/frount.png" alt="Frontal">
+            <img src="../img/righy.png" alt="Lateral">
+            <img src="../img/back.png" alt="Trasero">
+            <img src="../img/side.png" alt="Isométrico">
+          </div>
+          <button class="carousel-btn prev" onclick="moveSlide('track-2', -1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="moveSlide('track-2', 1)">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="character-card">
+        <div class="card-glow"></div>
+        <h3>✦ Personaje 3 ✦</h3>
+        <div class="carousel-container">
+          <div class="carousel-track" id="track-3">
+            <img src="../img/dddd.png" alt="Frontal">
+            <img src="../img/Sin_nombre.png" alt="Lateral">
+            <img src="../img/sss.png" alt="Trasero">
+            <img src="../img/cccc.png" alt="Isométrico">
+          </div>
+          <button class="carousel-btn prev" onclick="moveSlide('track-3', -1)">&#10094;</button>
+          <button class="carousel-btn next" onclick="moveSlide('track-3', 1)">&#10095;</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="../script.js"></script>
+</body>
+</html>
